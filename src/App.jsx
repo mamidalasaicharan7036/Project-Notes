@@ -52,9 +52,7 @@ function App() {
   }
 
   const selectedProject = projectState.projects.find(
-    projectsState.projects.find(
-      (project) => project.id === projectState.selectedProjectId,
-    ),
+    (project) => project.id === projectState.selectedProjectId,
   );
 
   let contect = <SelectedProject project={selectedProject} />;

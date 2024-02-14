@@ -20,6 +20,7 @@ export default function SelectedProject({ project }) {
           {project.description}
         </p>
       </header>
+      TASKS
     </div>
   );
 }
