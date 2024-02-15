@@ -16,7 +16,7 @@ export default function ProjectSidebar({
       <ul className="mt-8">
         {projects.map((project) => {
           let cssClass =
-            "w-fall text-left px-2 py-1 rounded-sm my-1 hover:bg-stone-800 hover:text-stone-200";
+            "w-full text-left px-2 py-1 rounded-sm my-1 hover:bg-stone-800 hover:text-stone-200";
           if (project.id === selectedProjectId) {
             cssClass += " bg-stone-800 text-stone-200";
           } else {
